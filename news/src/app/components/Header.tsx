@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({ title, onSearch }) => {
           value={searchTerm}
           onChange={handleSearchChange}
           placeholder="Search..."
-          className="p-2 rounded"
+          className="p-2 rounded text-black"
         />
       </form>
     </header>
