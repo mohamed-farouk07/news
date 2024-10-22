@@ -12,9 +12,6 @@ const Card: React.FC<CardProps> = ({ title, descriptions, imageUrl }) => {
   const fallbackImage = "https://via.placeholder.com/300x200?text=Static+Image";
 
   const handleError = () => {
-    console.log(
-      `Image failed to load: ${imgSrc}. Switching to fallback image.`
-    );
     setImgSrc(fallbackImage);
   };
 
